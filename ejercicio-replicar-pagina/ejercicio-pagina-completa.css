@@ -20,7 +20,7 @@ header{
 
 section{
     width: 100%;
-    margin: 2em 2em;
+    margin: 1em 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,8 +29,9 @@ section{
 
 footer{
     width: 100%;
-    height: 25em;
+    /* height: 25em; */
     background-color: rgb(226, 226, 226);
+    color: grey;
 }
 
 
@@ -53,6 +54,11 @@ a{
     width: 96%;
 }
 
+.footer-content{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
 #header-title-and-subtitle{
     text-align: left;
     margin-right: 1em;;
@@ -64,6 +70,14 @@ a{
 
 #header-title-and-subtitle h1{
     margin-bottom: 0em;
+}
+
+.inspirational-quote-div{
+    margin: 2.5em 2.5em;
+    text-align: center;
+    width: 50%;
+    font-size: 2em;
+    font-style: italic;
 }
 
 .red-rounded-box{
@@ -100,17 +114,25 @@ a{
 }
 
 .section-title-div{
-    padding: 0.5em 2em 0.5em;
+    margin-bottom: 2em;
+    padding: 0.05em 2em 0.05em;
     text-align: center;
 }
 
 .section-title{
     color: white;
-    margin: 0;
 }
 
 .player-div{
+    min-height: 400px;
     width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.player-link{
+    justify-self: flex-end;
 }
 
 .player-body{
@@ -123,4 +145,56 @@ a{
 
 .hr-efecto-profundidad{
     border-bottom: 1px solid white;
+    margin-bottom: 1em;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section-div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* color: grey; */
+}
+
+.footer-section-div>*{
+    margin-bottom: 1em;
+}
+
+.footer-section-div p {
+    margin:0;
+}
+
+.footer-section-title-div{
+    color: black;
+}
+
+.blog-posts-div{
+    width: 50%;
+}
+
+.post{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.post>*{
+    margin-right: 1em;
+}
+
+.post-img{
+    width: 8em;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+.subfooter{
+    display: flex;
+    justify-content: space-between;
 }
