@@ -9,18 +9,22 @@ body{
 
 header{
     width: 100%;
-    padding: 2em 1em 2em;
+    margin: 0 0 2em;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-content{
+    padding: 2em 0em 2em;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: nowrap;
-    margin: 0;
-    border-bottom: 1px solid lightgray;
+    /* margin: 0; */
 }
 
 section{
     width: 100%;
-    margin: 1em 1em;
+    margin: 1em 0em 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -78,6 +82,7 @@ a{
     width: 50%;
     font-size: 2em;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .red-rounded-box{
@@ -100,10 +105,21 @@ a{
     justify-content: space-between;
 }
 
+.service-div{
+    width: 30%;
+}
+
 .service-header{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
+
+.icon-container{
+    width: 2em;
+    margin-right: 1em;
+}
+
 
 .img-container{
     width: 100%;
