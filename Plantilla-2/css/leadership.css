@@ -1,0 +1,35 @@
+.leadership-section{
+    padding: 6em 0 6em;
+}
+
+.leadership-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leadership-item{
+    width: 20em;
+}
+
+.user-image{
+    width: 100%;
+}
+
+.user-name-h3{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.red-division-line{
+    border-top: 2px solid red;
+    width: 3em;
+    margin-left: 0;
+    margin-bottom: 2em;
+}
+
+.social-icon-p{
+    margin-top: 3em;
+    word-spacing: 1em;
+}

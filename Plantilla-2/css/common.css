@@ -33,7 +33,7 @@ h1,h2,h3{
 }
 
 .medium-width-content{
-    width: 60%;
+    width: 75%;
 }
 
 .gray-background{
@@ -42,6 +42,11 @@ h1,h2,h3{
 
 .white-background{
     background-color: white;
+}
+
+.section-title{
+    margin: 0 0 2em;
+    text-align: center;
 }
 
 /* buttons and links */
