@@ -1,0 +1,43 @@
+/* header div */
+header{
+    padding-bottom: 6em;
+}
+
+/* Navigation bar */
+.navbar{
+    margin-top: 0;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Slab', serif;
+    padding: 2em;
+    font-weight: bolder;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-link{
+    font-family: sans-serif;
+    margin-left: 3em;
+}
+
+.navbar-link:hover{
+    color: red;
+}
+
+
+/* Title and subtitle */
+.page-cover{
+    text-align: center;
+}
+.page-cover h1{
+    margin-bottom: 1em;
+    font-size: 3em;
+}

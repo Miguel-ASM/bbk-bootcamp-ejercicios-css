@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* COMMON CLASSES FOR ALL THE DOCUMENT */
+
+/* Organization and distribution */
+.centered-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wide-width-content{
+    width: 85%;
+}
+
+.medium-width-content{
+    width: 60%;
+}
+
+.gray-background{
+    background-color: #ECECEC;
+}
+
+.white-background{
+    background-color: white;
+}
+
+/* buttons and links */
+.red-button{
+    background-color: red;
+    color: white;
+    display: inline-block;
+}
+
+.hyperlink{
+    color: red;
+}
+
+/* Text */
+.grey-text{
+    color: #868F90;
+}
